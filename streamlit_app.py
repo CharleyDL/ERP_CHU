@@ -11,10 +11,15 @@ import streamlit as st
 
 from datetime import datetime
 
+import config
 import modules.administration as admin
 import modules.clear_db as clear_db
 import modules.fake_resident as fake
 import modules.resident as resident
+
+
+#**** CONSTANTS ****#
+CONFIG = config.get_db_config()
 
 
 ################################################################################
