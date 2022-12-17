@@ -4,7 +4,8 @@ by Charley∆ Lebarbier ---- v.1 2022
    
 --------------------------------------------------------------------------
 Un ERP pour gérer en base de données les patients, les employés et les archives.  
-Il est possible de naviguer via la console ou d'après une web app  
+Il est possible de naviguer via la console ou d'après une web app.  
+(link web app - la connection vers BDD désactiver : https://charleydl-erp-chu-streamlit-app-lodp19.streamlit.app/)
 
 La version actuelle comprends les features suivantes :  
 - Ajout et suppression d'un patient ou employé  
