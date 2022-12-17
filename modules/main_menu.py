@@ -10,6 +10,7 @@ import sys
 import webbrowser
 
 from os import system
+import streamlit.web.cli as stcli
 
 import modules.console_navigation as cn
 
@@ -40,16 +41,13 @@ def web_app() -> None:
 
     system('clear')    # Clear the terminal
 
-    # Display the header and options
+    # Display the header
     header()
-    print("   -- Cliquer sur le lien suivant pour accéder à l'ERP version Web :")
-    print("   -- ")
-    print("   -- https://charleydl-xyz-product-app-st-3mncz0.streamlit.app/")
+    print("   -- Cliquer sur le URL NETWORK pour accéder à la Web App :")
 
-    # Open automatically the webpage (doesnt work all the time)
-    webbrowser.open("https://charleydl-xyz-product-app-st-3mncz0.streamlit.app/", new=2, autoraise=True)
-
-    input("\n      Appuyer sur 'Entrée' pour revenir à la page d'accueil")
+    # Launch the streamlit app with the terminal cmd 'run'
+    sys.argv = ["streamlit", "run", "streamlit_app.py"]
+    sys.exit(stcli.main())
 
 
 def main_menu() -> int:
