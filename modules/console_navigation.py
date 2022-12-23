@@ -238,7 +238,7 @@ def options_ms() -> None:
 
         # Get the value by the user for each category
         nbr_patient = int(input("   -- Nombre de Faux Patient : "))
-        nbr_employee = int(input("   -- Nombre de Faux Résident : "))
+        nbr_employee = int(input("   -- Nombre de Faux Employé : "))
 
         fake_resident = fake.Fake(nbr_patient, nbr_employee)
         fake.Fake.add_fake_patient_db(fake_resident)
