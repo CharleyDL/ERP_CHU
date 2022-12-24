@@ -5,7 +5,7 @@ Brief Création mini ERP pour un CHU
 by Charley∆ Lebarbier ---- v.1 2022
    
 Un ERP pour gérer en base de données les patients, les employés et les archives.  
-Il est possible de naviguer via la console ou d'après une web app interne (hébergé localement mais avec accès à un serveur distant)  
+Il est possible de naviguer via la console ou d'après une web app interne (*hébergé localement mais avec accès à un serveur distant*)  
 
 La version actuelle comprends les features suivantes :  
 - Ajout et suppression d'un patient ou employé  
@@ -26,7 +26,7 @@ by Charley∆ Lebarbier ---- v.1 2022
    
 
 An ERP to manage in database patients, employees and archives.  
-It is possible to navigate via the console or from an internal web app (hosted locally but connect to a distant DB)  
+It is possible to navigate via the console or from an internal web app (*hosted locally but connect to a distant DB*)  
 
 The current version includes the following features:  
 - Add and delete a patient or employee  
