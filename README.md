@@ -1,10 +1,9 @@
 # ERP_CHU
 
-### FR
+#### FR.
 Brief Création mini ERP pour un CHU                      
 by Charley∆ Lebarbier ---- v.1 2022
    
---------------------------------------------------------------------------
 Un ERP pour gérer en base de données les patients, les employés et les archives.  
 Il est possible de naviguer via la console ou d'après une web app interne (hébergé localement)  
 
@@ -20,12 +19,12 @@ Prochaine(s) feature(s) possible(s) :
 
 ------
 
-### EN.
+#### EN.
 
 Brief Creation of a mini ERP for a university hospital                      
 by Charley∆ Lebarbier ---- v.1 2022
    
---------------------------------------------------------------------------
+
 An ERP to manage in database patients, employees and archives.  
 It is possible to navigate via the console or from an internal web app (hosted locally)  
 
