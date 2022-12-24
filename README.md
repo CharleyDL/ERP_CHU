@@ -8,9 +8,10 @@ Il est possible de naviguer via la console ou d'après une web app interne (héb
 
 La version actuelle comprends les features suivantes :  
 - Ajout et suppression d'un patient ou employé  
-- Donner une date de fin de contrat ou de séjour  
+- Donner une date de fin de contrat ou de séjour
 - Voir les entrées de la base de données (patients, employés et Archives)  
-- Remplir la base de données de fausses personnes  
+- Remplir la base de données de faux résidents (i.e. patients et employés)  
 
 Prochaine(s) feature(s) possible(s) :  
 - Création d'une barre de recherche
+- Petites corrections d'affichage terminal (saut de ligne pour clareté) 
