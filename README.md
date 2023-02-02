@@ -1,4 +1,5 @@
 # ERP_CHU
+![Python 3 compatible](https://img.shields.io/badge/python-3.x-blue.svg)
 
 #### FR.
 Brief Création mini ERP pour un CHU                      
